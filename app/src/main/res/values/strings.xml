@@ -1,0 +1,120 @@
+<resources>
+    <string name="app_name">MultiSport Logger</string>
+
+    <!-- Navigation Tabs -->
+    <string name="tab_activities">Aktivity</string>
+    <string name="tab_analytics">Analýza</string>
+    <string name="tab_subscriptions">Nastavení / Předplatné</string>
+
+    <!-- Screen Titles -->
+    <string name="title_activity_log">Deník aktivit</string>
+    <string name="title_analytics">Analýza a úspory</string>
+    <string name="title_subscriptions">Předplatné a záloha</string>
+
+    <!-- Buttons & Actions -->
+    <string name="btn_log_activity">Zaznamenat aktivitu</string>
+    <string name="btn_log_first_activity">Zaznamenat první aktivitu</string>
+    <string name="btn_save">Uložit</string>
+    <string name="btn_save_log">Uložit záznam</string>
+    <string name="btn_update_log">Upravit záznam</string>
+    <string name="btn_save_subscription">Uložit předplatné</string>
+    <string name="btn_save_template">Uložit šablonu</string>
+    <string name="btn_create_template">Vytvořit šablonu</string>
+    <string name="btn_update_template">Upravit šablonu</string>
+    <string name="btn_cancel">Zrušit</string>
+    <string name="btn_delete">Smazat</string>
+    <string name="btn_close">Zavřít</string>
+    <string name="btn_ok">OK</string>
+    <string name="btn_add">Přidat</string>
+    <string name="btn_add_month">Přidat měsíc</string>
+    <string name="btn_clear_filters">Vymazat filtry</string>
+    <string name="btn_copy">Kopírovat</string>
+    <string name="btn_share">Sdílet</string>
+    <string name="btn_save_to_file">Uložit do souboru</string>
+    <string name="btn_export_data">Exportovat data</string>
+    <string name="btn_import_data">Importovat data</string>
+    <string name="btn_select_file">Vybrat soubor JSON nebo CSV</string>
+    <string name="btn_replace_import">Nahradit a importovat</string>
+    <string name="btn_merge_import">Sloučit a importovat</string>
+    <string name="btn_this_month">Tento měsíc</string>
+    <string name="btn_last_month">Minulý měsíc</string>
+    <string name="btn_log_today">Zaznamenat dnes</string>
+    <string name="btn_use_in_form">Použít ve formuláři</string>
+    <string name="btn_edit">Upravit</string>
+
+    <!-- Headers & Sections -->
+    <string name="header_default_card_cost">Výchozí měsíční cena karty</string>
+    <string name="header_monthly_card_costs">Měsíční ceny karty</string>
+    <string name="header_backup_transfer">Záloha a přenos dat</string>
+    <string name="header_top_venues">Nejnavštěvovanější místa tento měsíc</string>
+    <string name="header_all_time_summary">Celkový finanční přehled</string>
+    <string name="header_savings_this_month">Úspory tento měsíc</string>
+    <string name="header_net_spend">Čisté výdaje</string>
+    <string name="header_break_even">Průběh návratnosti karty</string>
+    <string name="header_filtered_visits">Filtrované návštěvy</string>
+    <string name="header_recorded_visits">Zaznamenané návštěvy</string>
+    <string name="header_total_spent">Celkem utraceno</string>
+    <string name="header_visits">Návštěvy</string>
+    <string name="header_activity_value">Hodnota aktivit</string>
+    <string name="header_card_cost">Cena karty</string>
+    <string name="header_group">Skupina</string>
+    <string name="header_sort">Řadit</string>
+    <string name="header_month">Měsíc</string>
+    <string name="header_all_months">Všechny měsíce</string>
+    <string name="header_quick_templates">Rychlé šablony (Klepnutím zaznamenáte dnes)</string>
+    <string name="header_templates">Šablony (%d)</string>
+    <string name="header_all_time_savings">Celkové čisté úspory</string>
+    <string name="header_total_visits">Celkem návštěv</string>
+    <string name="header_total_activity_value">Celková hodnota aktivit</string>
+    <string name="header_total_subscriptions_paid">Celkem zaplaceno za kartu</string>
+
+    <!-- Dialog Titles & Confirmations -->
+    <string name="dialog_log_visit">Zaznamenat návštěvu</string>
+    <string name="dialog_edit_visit">Upravit záznam aktivity</string>
+    <string name="dialog_new_template">Nová šablona aktivity</string>
+    <string name="dialog_edit_template">Upravit šablonu</string>
+    <string name="dialog_templates_title">Šablony aktivit</string>
+    <string name="dialog_add_subscription">Přidat cenu předplatného</string>
+    <string name="dialog_edit_subscription">Upravit cenu předplatného</string>
+    <string name="dialog_edit_default_cost">Upravit výchozí měsíční cenu karty</string>
+    <string name="dialog_delete_log_title">Smazat záznam aktivity?</string>
+    <string name="dialog_delete_log_msg">Opravdu chcete smazat záznam %1$s v %2$s dne %3$s?</string>
+    <string name="dialog_delete_template_title">Smazat šablonu?</string>
+    <string name="dialog_delete_template_msg">Opravdu chcete smazat šablonu pro %1$s v %2$s?</string>
+    <string name="dialog_delete_subscription_title">Smazat předplatné</string>
+    <string name="dialog_delete_subscription_msg">Opravdu chcete smazat cenu předplatného pro %s?</string>
+    <string name="dialog_export_title">Exportovat data</string>
+    <string name="dialog_import_title">Importovat data</string>
+
+    <!-- Form Labels & Descriptions -->
+    <string name="label_date">Datum (RRRR-MM-DD)</string>
+    <string name="label_venue_name">Název místa</string>
+    <string name="label_activity_name">Název aktivity / lekce</string>
+    <string name="label_cost">Cena</string>
+    <string name="label_default_cost">Výchozí cena</string>
+    <string name="label_save_as_template">Uložit jako šablonu pro rychlé zaznamenávání</string>
+    <string name="label_month_format">Měsíc (RRRR-MM)</string>
+    <string name="label_card_cost">Cena karty MultiSport</string>
+    <string name="label_default_card_cost">Výchozí měsíční cena karty</string>
+    <string name="label_search_placeholder">Hledat místo, aktivitu, datum...</string>
+    <string name="label_clear_search">Vymazat hledání</string>
+    <string name="label_select_format">Vyberte formát:</string>
+    <string name="label_paste_data">Nebo vložte data JSON/CSV níže:</string>
+    <string name="label_paste_placeholder">Vložte data JSON nebo CSV zde...</string>
+    <string name="label_replace_data">Nahradit stávající data</string>
+    <string name="desc_overwrites_db">Přepíše celou databázi</string>
+    <string name="desc_merges_db">Sloučí se stávajícími záznamy</string>
+    <string name="desc_backup_transfer">Exportujte nebo importujte své záznamy aktivit, rychlé šablony a nastavení měsíčního předplatného.</string>
+    <string name="desc_default_card_cost">Výchozí cena se automaticky použije pro měsíce bez zadaného předplatného.</string>
+    <string name="desc_no_subscriptions">Žádné vlastní měsíční úpravy</string>
+    <string name="desc_no_subscriptions_sub">Pro všechny měsíce se automaticky použije výchozí cena karty. Vlastní cenu můžete nastavit pro libovolný měsíc tlačítkem Přidat měsíc.</string>
+    <string name="desc_no_templates">Zatím nebyly uloženy žádné šablony</string>
+    <string name="desc_no_templates_sub">Vytvořte šablony pro rychlé zaznamenání jedním klepnutím!</string>
+    <string name="desc_templates_hint">Šablony umožňují zaznamenat opakované návštěvy jedním klepnutím.</string>
+    <string name="desc_no_activities">Zatím nebyly zaznamenány žádné aktivity</string>
+    <string name="desc_no_activities_sub">Začněte sledovat své návštěvy sportovišť, posiloven a lekcí!</string>
+    <string name="desc_no_match_filter">Žádné aktivity neodpovídají filtrům</string>
+    <string name="desc_no_match_filter_sub">Zkuste vymazat vyhledávání nebo změnit filtr měsíce.</string>
+    <string name="tip_set_card_cost">Tip: Nastavte si měsíční cenu karty MultiSport v Předplatném pro sledování přesných úspor!</string>
+    <string name="currency_suffix">Kč</string>
+</resources>

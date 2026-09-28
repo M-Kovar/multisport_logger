@@ -1,0 +1,4 @@
+<resources>
+
+    <style name="Theme.Multisport_logger" parent="Theme.MaterialComponents.Light" />
+</resources>
